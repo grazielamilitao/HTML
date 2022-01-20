@@ -1,0 +1,151 @@
+<DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML</title>
+    <link rel="stylesheet" href="html.css">
+  </head>
+
+  <body class="fundo">
+    <div id="container">
+      <div id='topo'>
+        <h1>Desenvolvimento Web</h1>
+      </div>
+      <div id='menu'>
+        <ul>
+          <li><a class="botao" href="index.html">HOME</a></li>
+          <li><a class="botao" href="html.html">HTML</a></li>
+          <li><a class="botao" href="javascript.html">JAVASCRIP</a></li>
+        </ul>
+      </div>
+      <div id='principal'>
+        <div id='conteudo'>
+          <div class="post">
+            <h2>HTML</h2>
+            <div class="imagem">
+              <img src="imagens/html-pag.png" class="imagem">
+            </div>
+            <p class="texto">O HTML sem dúvida é uma das linguagens mais importantes para programação WEB, por que é ela que exibe a informação.
+              Além de exibir a informação, ela dá significado. Isso é importante por que alguns sistemas como o Google, que irão ler
+               sua página, precisam entender o que é cada elemento nela e o que cada um desses elementos significam. O acrônico HTML
+               significa: HyperText Markup Language, que em português fica: Linguagem de Marcação de Hipertexto. Por trás das
+                palavras Hipertexto e Marcação tem muita história e guardam a real essência da função do HTML. Semântica é a organização
+                da informação usando HTML. O principal a se saber sobre HTML é: HTML serve para dar significado e organizar a informação
+                dos websites.</p> <br>
+            <div class="post">
+            <h2> Composição do HTML </h2>
+            <p class="texto">Um documento HTML é composto por tags, as quais possuem um nome e aparecem entre os sinais < e >, por exemplo, em < html >
+              e < head >. As tags precisam ser abertas e fechadas, como em < body > < / body >. Nesse caso, a tag de fechamento deve conter
+              a barra / antes do nome. Outras, porém, não precisam ser fechadas, como a tag < meta >. Nesses casos, a adição da barra / no
+              final da própria tag é opcional. Outro aspecto importante da linguagem é que ela é case insensitive, ou seja, não leva em
+              consideração a diferença entre letras maiúsculas e minúsculas. No entanto, o uso apenas de letras minúsculas tem sido utilizado
+              como padrão pelos desenvolvedores. Além dessas características, as tags também possuem atributos na qual a tag meta possui o
+              atributo charset = "UTF-8". Essas propriedades definem algumas características adicionais de cada tag e em alguns casos são
+              obrigatórias. Seus valores devem aparecer entre aspas duplas, como no exemplo acima, ou em aspas simples, caso o próprio valor
+              contenha aspas duplas.</p>
+            </div>
+          </div>
+          <div class="post">
+            <h2 class="titulo"> Principais tags do HTML </h2>
+            <table class="tabela" cellpadding="10" cellspacing="1" border="1">
+              <thead>
+                <tr>
+                  <th>Tag</th>
+                  <th>Nome</th>
+                  <th>Exemplo de código</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td> < !– </td>
+                  <td>Comentário</td>
+                  <td> < !– –> </td>
+                </tr>
+                <tr>
+                  <td> < head> </td>
+                  <td>Cabeçalho do documento HTML</td>
+                  <td>< head> </ head> </td>
+                </tr>
+                <tr>
+                  <td> < a – </td>
+                  <td>Anchor</td>
+                  <td> < a hrel=""> </ a> </td>
+                </tr>
+                <tr>
+                  <td> < body ></td>
+                  <td>Corpo do documento HTML</td>
+                  <td>< body> </ body></td>
+                </tr>
+                <tr>
+                  <td> < br> </td>
+                  <td>Quebra de linha</td>
+                  <td> < br> </td>
+                </tr>
+                <tr>
+                  <td> < form> </td>
+                  <td>Formulário</td>
+                  <td> < form> </ form> </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="post">
+            <h2>Versões do HTML:</h2>
+            <ol class="lista">
+              <li>HTML 2.0</li>
+              <li>HTML 3.2</li>
+              <li>HTML 4.0</li>
+              <li>HTML 4.01</li>
+              <li>HTML 5</li>
+            </ol>
+          </div>
+          <div class="post">
+            <h2>Vantagens que o novo HTML 5 oferece para os desenvolvedores:</h2>
+            <ul class="lista">
+              <li>Manipulação de erro persistente;</li>
+              <li>Semântica melhorada para elementos;</li>
+              <li>Suporte aprimorado para recursos de aplicativos da Web;</li>
+              <li>Teia móvel facilitada;</li>
+              <li>O elemento canvas;</li>
+              <li>O elemento Menu;</li>
+              <li>Atributos de Dados Personalizáveis;</li>
+              <li>Os cookies eram (ou deveriam ser) temporários.</li>
+            </ul>
+          </div>
+          <a href="javascript.html" class="conhecer">Conhecer mais sobre JavaScript &raquo;</a>
+        </div>
+        <div id='barra-lateral'>
+          <div class="barra1">
+  					<strong>Buscar:</strong>
+  					<form action="">
+              <dl>
+                <dd>
+                  <pre>
+                    <br><input type="text" size="20" maxlength="100" nome="nome" class="dados">
+                    <br><input type="submit" class="botao" name="enviar" value="Buscar &raquo;"/>
+                  </pre>
+                </dd>
+              </dl>
+  					</form>
+          </div>
+          <div class="barra2">
+  					<strong>Envie uma mensagem para a página:</strong>
+  					<form action="">
+              <dl>
+                <dd>
+                  <pre>
+Nome:               <br><input type="text" size="20" maxlength="100" nome="nome" class="dados">
+Email:              <br><input type="text" size="25" maxlength="100" nome="email" class="dados">
+Mensagem:           <br><textarea nome="mensagem" rows="5" cols="30" class="dados"></textarea>
+<input type="checkbox" class="novidade" value="nov"> Quero receber novidades por email
+                    <br><input type="submit" class="botao" name="enviar" value="Enviar mensagem &raquo;"/>
+                  </pre>
+                </dd>
+              </dl>
+  					</form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

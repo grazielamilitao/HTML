@@ -1,0 +1,138 @@
+<DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Desenvolvimento Web</title>
+    <link rel="stylesheet" href="javascript.css">
+  </head>
+
+  <body class="fundo">
+    <div id="container">
+      <div id='topo'>
+        <h1>Desenvolvimento Web</h1>
+      </div>
+      <div id='menu'>
+        <ul>
+          <li><a class="botao" href="index.html">HOME</a></li>
+          <li><a class="botao" href="html.html">HTML</a></li>
+          <li><a class="botao" href="javascript.html">JAVASCRIP</a></li>
+        </ul>
+      </div>
+      <div id='principal'>
+        <div id='conteudo'>
+          <div class="post">
+            <h2>JavaScript</h2>
+            <div class="imagem">
+              <img src="imagens/javascript.gif">
+            </div>
+            <p class="texto">O JavaScript (JS) é uma linguagem de programação utilizada principalmente em páginas web.
+              Com o JS, pode-se mostrar mensagens e outras informações interessantes, fazer verificações ou mudar
+              dinamicamente a apresentação visual das páginas, conforme o comportamento desejado que a página (ou aplicação) possua,
+              tudo através do navegador do usuário. É possível fazer isso até mesmo sem conexão com a internet. </p>
+          </div>
+          <div class="post">
+            <h2>Por que devo usar o JavaScript?</h2>
+            <p>Atualmente, o JavaScript é a linguagem web mais popular do mundo, pois todos os sites modernos e a grande maioria
+              das aplicações web possuem recursos em JavaScript, como por exemplo: galeria de imagem, interação com a rolagem da página, animações
+              parallax e validações e manipulação de elementos HTML e CSS. Hoje em dia, até banco de dados NoSQL podem ser baseados em
+              JavaScript. Essa linguagem é essencial para qualquer programador e é simples de aprender. Trata-se de uma linguagem
+               baseada em eventos. E ainda conta com diversos frameworks, como:</p>
+            <ol>
+              <li>AngularJS</li>
+              <li>Backbone.js</li>
+              <li>React.JS</li>
+              <li>Ember.js</li>
+              <li>Node.Js</li>
+            </ol>
+            <p>Outras aplicações do JavaScript:</p>
+            <ul>
+              <li>Validação de formulários;</li>
+              <li>Esconder ou apresentar informações da página;</li>
+              <li>Janelas de aviso ou de confirmação;</li>
+              <li>Sistemas de autocomplete;</li>
+              <li>Aplicações web que mostram informações que mudam constantemente;</li>
+              <li>Interações com elementos HTML;</li>
+              <li>Interação com regras CSS.</li>
+            </ul>
+          </div>
+          <div class="post">
+            <h2>Comandos do Console JavaScript</h2>
+            <table class="tabela" cellpadding="5" cellspacing="1" border= "3">
+              <thead>
+                <tr>
+                  <th>Comando</th>
+                  <th>Descrição</th>
+                  <th>Exemplo</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>assert(expression, message)</td>
+                  <td>Envia uma mensagem se expression for avaliada como false.</td>
+                  <td>console.assert((x == 1), "assert message: x != 1");</td>
+                </tr>
+                <tr>
+                  <td>clear()</td>
+                  <td>Limpa as mensagens da janela do console.</td>
+                  <td>console.clear();</td>
+                </tr>
+                <tr>
+                  <td>count(title)</td>
+                  <td>Envia o número de vezes que o comando count foi chamado para a janela do console.</td>
+                  <td>console.count();<br>console.count("inner loop");</td>
+                </tr>
+                <tr>
+                  <td>debug(message)</td>
+                  <td>Envia message para a janela do console.</td>
+                  <td>console.debug("logging message");</td>
+                </tr>
+                <tr>
+                  <td>dir(object)</td>
+                  <td>Envia o objeto especificado para a janela do console e o exibe em um visualizador de objetos.</td>
+                  <td>console.dir(obj);</td>
+                </tr>
+                <tr>
+                  <td>error(message)</td>
+                  <td>Envia message para a janela do console.</td>
+                  <td>console.error("error message");</td>
+                </tr>
+              </tbody>
+            </table>
+            <a href="index.html" class="conhecer"> &laquo; Voltar a página inicial</a>
+          </div>
+        </div>
+        <div id='barra-lateral'>
+          <div class="barra1">
+  					<strong>Buscar:</strong>
+  					<form action="">
+              <dl>
+                <dd>
+                  <pre>
+                    <br><input type="text" size="20" maxlength="100" nome="nome" class="dados">
+                    <br><input type="submit" class="botao" name="enviar" value="Buscar &raquo;"/>
+                  </pre>
+                </dd>
+              </dl>
+  					</form>
+          </div>
+          <div class="barra2">
+  					<strong>Envie uma mensagem para a página:</strong>
+  					<form action="">
+              <dl>
+                <dd>
+                  <pre>
+Nome:               <br><input type="text" size="20" maxlength="100" nome="nome" class="dados">
+Email:              <br><input type="text" size="25" maxlength="100" nome="email" class="dados">
+Mensagem:           <br><textarea nome="mensagem" rows="5" cols="30" class="dados"></textarea>
+<input type="checkbox" class="novidade" value="nov"> Quero receber novidades por email
+                    <br><input type="submit" class="botao" name="enviar" value="Enviar mensagem &raquo;"/>
+                  </pre>
+                </dd>
+              </dl>
+  					</form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

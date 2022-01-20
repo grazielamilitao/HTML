@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container{
+  max-width: 1190px;
+  background-color: white;
+  margin: auto;
+}
+
+#topo{
+  background-color: #350e8a;
+  margin-bottom: inherit;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.botao{
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: #000000;
+	cursor: pointer;
+	margin: 5px 0;
+	display: inline;
+	border: none;
+  text-decoration: none;
+}
+
+a.botao:hover{
+  background: #350E8A;
+}
+
+input.botao:hover{
+  background: #350E8A;
+}
+
+#menu{
+  background-color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#menu li {
+  display: inline;
+  padding: 0 30px;
+}
+
+#principal {
+  background-color: white;
+}
+
+#conteudo{
+  width: 75%;
+  background-color: white;
+  height: 580px;
+  float: left;
+}
+
+#barra-lateral{
+  width: 25%;
+  background-color: white;
+  height: 580px;
+  float: right;
+}
+
+.post{
+  background-color: white;
+  width: 100%;
+}
+
+.post .imagem img {
+  margin-left: 300px;
+  width: 300px;
+  height: 300px;
+}
+
+h1{
+  text-align: center;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  padding: 10px;
+}
+
+.imagem{
+  width: 600px;
+  height: 300px;
+}
+
+p{
+  font-size: 20px;
+  color: #000000;
+  width: 800px;
+  text-align:justify;
+  display: block;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.titulo{
+  margin-bottom: 10px;
+}
+
+.tabela{
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+li{
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+ul{
+  margin-bottom: 20px;
+}
+
+.conhecer{
+  padding: 5px 10px;
+	border-radius: 3px;
+	color: #000000;
+	cursor: pointer;
+	display: inline;
+	border: none;
+  text-decoration: none;
+  background: #B9B9B9;
+  margin-left: 540px;
+}
+
+a.conhecer:hover{
+  background: #350E8A;
+}
